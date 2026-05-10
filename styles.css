@@ -1512,8 +1512,8 @@ input {
             "volunteers";
     }
     .chart-card {
-        height: 280px;
-        padding: 16px;
+        height: 320px;
+        padding: 16px 12px;
     }
     .image-bento,
     .volunteers,
@@ -1525,16 +1525,35 @@ input {
         display: none;
     }
     .chart {
-        grid-template-columns: 30px 1fr;
+        grid-template-columns: 28px 1fr;
         grid-template-areas:
             "yaxis plot"
             ".     xlabels";
     }
+    .chart-bars {
+        inset: 0 12px 0 4px;
+        gap: 2px;
+    }
+    .bar-group {
+        gap: 2px;
+    }
     .bar {
-        width: 8px;
+        width: 7px;
     }
     .bar-label {
         font-size: 8px;
+    }
+    .map-card .pin-4 {
+        top: 14%;
+        right: 8%;
+    }
+    .map-card .pin-5 {
+        top: 36%;
+        right: 18%;
+    }
+    .s4-bg {
+        height: auto;
+        bottom: 60px;
     }
     .end-content {
         padding: 40px 0 0;

@@ -1565,11 +1565,45 @@ input {
     .personas {
         grid-template-columns: 1fr;
     }
+    .persona,
+    .persona--1,
+    .persona--2,
+    .persona--3,
+    .persona--4,
+    .persona--5 {
+        height: auto;
+        min-height: 0;
+        margin-top: 0;
+    }
+    .persona-avatar,
+    .persona--1 .persona-avatar,
+    .persona--2 .persona-avatar,
+    .persona--3 .persona-avatar,
+    .persona--4 .persona-avatar,
+    .persona--5 .persona-avatar {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-bottom: 18px;
+    }
+    .persona-name {
+        margin-top: 8px;
+        padding-top: 0;
+    }
     .newsletter-title {
         font-size: 32px;
     }
     .newsletter-form {
         width: 100%;
+        padding: 24px 20px;
+    }
+    .form-pill-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .form-pill {
+        padding: 8px 16px;
+        gap: 12px;
     }
     .footer-end {
         grid-template-columns: 1fr;

@@ -969,6 +969,7 @@ input {
 .news-img {
     width: 100%;
     height: 256px;
+    flex-shrink: 0;
     border-radius: 16px;
     overflow: hidden;
     background: #fff;
@@ -1034,11 +1035,13 @@ input {
 .s5 .section-heading {
     margin-bottom: 80px;
     max-width: 680px;
+    align-items: center;
+    text-align: center;
 }
 
 .s5 .eyebrow {
-    margin-left: auto;
-    margin-right: 30px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .s5 .section-title {
